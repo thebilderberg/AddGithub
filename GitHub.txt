@@ -1,0 +1,28 @@
+______________________________Загрузка нового репозитория__________________________________
+
+git clone (ссылка с гитхаб)
+
+вставляем фаил, заходим в папку
+
+git init
+
+git branch -M main
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/thebilderberg/ADDGItHub.git
+
+git push -u origin main
+
+_____________________________________Загрузка изменений___________________________________
+
+git add .
+
+git status
+
+git commit -m "Название"
+
+git push
+___________________________________________________________________________________________
